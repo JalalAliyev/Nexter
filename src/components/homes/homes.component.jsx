@@ -5,6 +5,9 @@ import Home from "./home.component";
 const Homes = () => {
   return (
     <section className="homes">
+      <h2 className="heading-2 heading_text-2">
+        Homes
+      </h2>
       {homesDatas.map((data) => (
         <Home
           key={data.homeNumber}

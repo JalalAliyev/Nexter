@@ -17,47 +17,49 @@ import ImageFourteen from "../../img/gal-14.jpeg";
 const Gallery = () => {
   return (
     <section className="gallery">
+      <div className="gallery_back-image"></div>
+      <h2 className="heading-2 heading_text-2 mb-sm">Gallery</h2>
       <figure className="gallery_item gallery_item-1">
-        <img src={ImageOne} alt="" className="gallery_img" />
+        <img src={ImageOne} alt="Something went wrong" className="gallery_img" />
       </figure>
       <figure className="gallery_item gallery_item-2">
-        <img src={ImageTwo} alt="" className="gallery_img" />
+        <img src={ImageTwo} alt="Something went wrong" className="gallery_img" />
       </figure>
       <figure className="gallery_item gallery_item-3">
-        <img src={ImageThree} alt="" className="gallery_img" />
+        <img src={ImageThree} alt="Something went wrong" className="gallery_img" />
       </figure>
       <figure className="gallery_item gallery_item-4">
-        <img src={ImageFour} alt="" className="gallery_img" />
+        <img src={ImageFour} alt="Something went wrong" className="gallery_img" />
       </figure>
       <figure className="gallery_item gallery_item-5">
-        <img src={ImageFive} alt="" className="gallery_img" />
+        <img src={ImageFive} alt="Something went wrong" className="gallery_img" />
       </figure>
       <figure className="gallery_item gallery_item-6">
-        <img src={ImageSix} alt="" className="gallery_img" />
+        <img src={ImageSix} alt="Something went wrong" className="gallery_img" />
       </figure>
       <figure className="gallery_item gallery_item-7">
-        <img src={ImageSeven} alt="" className="gallery_img" />
+        <img src={ImageSeven} alt="Something went wrong" className="gallery_img" />
       </figure>
       <figure className="gallery_item gallery_item-8">
-        <img src={ImageEight} alt="" className="gallery_img" />
+        <img src={ImageEight} alt="Something went wrong" className="gallery_img" />
       </figure>
       <figure className="gallery_item gallery_item-9">
-        <img src={ImageNine} alt="" className="gallery_img" />
+        <img src={ImageNine} alt="Something went wrong" className="gallery_img" />
       </figure>
       <figure className="gallery_item gallery_item-10">
-        <img src={ImageTen} alt="" className="gallery_img" />
+        <img src={ImageTen} alt="Something went wrong" className="gallery_img" />
       </figure>
       <figure className="gallery_item gallery_item-11">
-        <img src={ImageEleven} alt="" className="gallery_img" />
+        <img src={ImageEleven} alt="Something went wrong" className="gallery_img" />
       </figure>
       <figure className="gallery_item gallery_item-12">
-        <img src={ImageTwelve} alt="" className="gallery_img" />
+        <img src={ImageTwelve} alt="Something went wrong" className="gallery_img" />
       </figure>
       <figure className="gallery_item gallery_item-13">
-        <img src={ImageThirteen} alt="" className="gallery_img" />
+        <img src={ImageThirteen} alt="Something went wrong" className="gallery_img" />
       </figure>
       <figure className="gallery_item gallery_item-14">
-        <img src={ImageFourteen} alt="" className="gallery_img" />
+        <img src={ImageFourteen} alt="Something went wrong" className="gallery_img" />
       </figure>
     </section>
   );

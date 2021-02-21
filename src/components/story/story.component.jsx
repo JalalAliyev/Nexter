@@ -4,7 +4,6 @@ import StroyPictures from "./story-pictures.component";
 
 const Story = () => {
   return (
-
     <>
       <StroyPictures />
       <StoryContent />

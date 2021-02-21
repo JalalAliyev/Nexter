@@ -5,8 +5,12 @@
   display: grid;
   justify-content: center;
   align-content: center;
-  justify-items: center;
   grid-row-gap: 2rem;
+  justify-items: center;
+
+  @media only screen and (max-width: $bp-medium) {
+    grid-column: 1 / -1;
+  }
 
   &_list {
     display: grid;
@@ -14,6 +18,16 @@
     grid-column-gap: 2rem;
     grid-row-gap: 5vh;
     align-items: center;
+
+    @media only screen and (max-width: $bp-medium) {
+      grid-template-columns: repeat(3, min-content max-content);
+      grid-column-gap: 2.5rem;
+    }
+    
+
+  @media only screen and (max-width: $bp-small) {
+    grid-template-columns: min-content max-content;
+  }
   }
 
   &_img {

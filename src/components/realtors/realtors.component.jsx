@@ -8,17 +8,29 @@ const Relators = () => {
     <div className="realtors">
       <h3 className="heading-3">Top 3 Realtors</h3>
       <div className="realtors_list">
-        <img src={RealtorOne} alt="Image-1" className="realtors_img" />
+        <img
+          src={RealtorOne}
+          alt="Something went wrong"
+          className="realtors_img"
+        />
         <div className="realtors_details">
           <h4 className="heading-4 heading-4-light">Erik Feiman</h4>
           <p className="realtors_sold">245 houses sold</p>
         </div>
-        <img src={RealtorTwo} alt="Image-2" className="realtors_img" />
+        <img
+          src={RealtorTwo}
+          alt="Something went wrong"
+          className="realtors_img"
+        />
         <div className="realtors_details">
           <h4 className="heading-4 heading-4-light">Kim Brown</h4>
           <p className="realtors_sold">245 houses sold</p>
         </div>
-        <img src={RealtorThree} alt="Image-3" className="realtors_img" />
+        <img
+          src={RealtorThree}
+          alt="Something went wrong"
+          className="realtors_img"
+        />
         <div className="realtors_details">
           <h4 className="heading-4 heading-4-light">Toby Ramsey</h4>
           <p className="realtors_sold">212 houses sold</p>

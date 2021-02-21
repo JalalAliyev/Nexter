@@ -1,6 +1,18 @@
 .homes {
   grid-column: center-start / center-end;
-  margin: 15rem 0;
+  margin: 11rem 0;
+
+  @media only screen and (max-width: $bp-largest) {
+    margin: 9rem 0;
+  }
+
+  @media only screen and (max-width: $bp-large) {
+    margin: 7rem 0;
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    margin: 5rem 0;
+  }
 
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));

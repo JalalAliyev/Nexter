@@ -45,6 +45,12 @@
   }
 }
 
+.heading_text-2 {
+  color: $color-primary;
+  grid-column: 1 / -1;
+  margin: 0 auto;
+}
+
 .btn {
   background-color: $color-primary;
   color: #fff;
